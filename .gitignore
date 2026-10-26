@@ -1,0 +1,17 @@
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Allow an example configuration file
+!.env.example
+
+# Python environments and cache
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local data and logs
+/data/
+/logs/
